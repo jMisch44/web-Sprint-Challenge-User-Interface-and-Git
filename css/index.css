@@ -75,7 +75,6 @@ p {
     display: flex;
     justify-content: space-between;
     margin: 3% auto;
-    width: 100%;
 }
 
 nav{
@@ -90,7 +89,6 @@ nav a{
 }
 header{
     background-image: url(/img/jumbo.jpg);
-    width: 100%;
     background-position: bottom;
     height: 32vh;
     background-repeat: no-repeat;
@@ -220,12 +218,26 @@ footer nav a {
 .about-middle-section{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    height:100vh;
-    border: solid black 1px;
+    justify-content: space-between;
+    height:140vh;
 }
 .about-middle-section div{
     display: flex;
     flex-flow:column wrap;
-    width:50%;
+    justify-content: space-evenly;
+    width:47%;
+    margin-bottom: 3%;
+    border-bottom: dashed black 1px;
+}
+.about-middle-section a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 35%;
+    color: black;
+    border: black 2px solid;
+    border-radius: 5px;
+    padding: 2%;
+    margin-bottom: 2%;
 }
