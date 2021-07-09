@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 
+/* CSS styling starts here */
+
 * {
     box-sizing: border-box;
 }
@@ -71,30 +73,33 @@ p {
     margin: 0 auto;
 }
 
+/* header tag */
+
 .nav-bar-container{
     display: flex;
     justify-content: space-between;
-    margin: 3% auto;
+    align-items: baseline;
+    margin:1.5% auto;
 }
 
 nav{
     display: flex;
-    justify-content: space-evenly;
-    align-items: flex-end;
+    justify-content: space-around;
+    align-items: center;
     width:100%;
 }
+
 nav a{
     color: black;
     text-decoration: none;
+    font-size:0.9rem
 }
-header{
-    background-position: bottom;
-    background-repeat: no-repeat;
-    margin:2% auto;
-}
+
 header img{
-    margin: 1% 0px;
+    margin: 1% auto;
 }
+
+/* homepage top content */
 
 .top-content {
     display: flex;
@@ -109,6 +114,8 @@ header img{
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/* homepage middle content */
 
 .middle-content {
     margin-bottom: 20px;
@@ -135,6 +142,9 @@ header img{
     align-items: center;
     justify-content: center;
 }
+
+/* box colors */
+
 .item1{
     background-color: teal;
 }
@@ -174,6 +184,8 @@ header img{
     background-color: dodgerblue;
 }
 
+/* homepage bottom content */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -187,7 +199,7 @@ header img{
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
+/* footer */
 footer {
     width: 100%;
     background: black;
@@ -209,19 +221,22 @@ footer nav a {
 
 /* about section styling */
 
-.about-top-content-header{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-    width: 97%;
-    padding-bottom: 2%;
+/* about page top content */
+
+.about-top-section-header{
+    padding: 2%;
 }
+
+/* about page middle content */
+
 .about-middle-section{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 0 2%;
     height:140vh;
 }
+
 .about-middle-section div{
     display: flex;
     flex-flow:column wrap;
@@ -230,6 +245,7 @@ footer nav a {
     margin-bottom: 3%;
     border-bottom: dashed black 1px;
 }
+
 .about-middle-section a{
     display: flex;
     justify-content: center;
@@ -237,11 +253,11 @@ footer nav a {
     text-decoration: none;
     width: 35%;
     color: black;
-    border: black 2px solid;
-    border-radius: 5px;
+    border: black 3px solid;
+    border-radius: 10px;
     padding: 2%;
-    margin-bottom: 2%;
 }
+/* about page bottom content styling*/
 .about-bottom-section{
     padding: 2%;
     margin-bottom: 4%;
