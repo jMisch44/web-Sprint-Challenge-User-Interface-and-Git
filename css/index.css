@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 
+/* CSS styling starts here */
+
 * {
     box-sizing: border-box;
 }
@@ -71,6 +73,34 @@ p {
     margin: 0 auto;
 }
 
+/* header tag */
+
+.nav-bar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin:1% auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    font-size:0.9rem
+}
+
+header img{
+    margin: 2.5% auto;
+}
+
+/* homepage top content */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -84,6 +114,8 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/* homepage middle content */
 
 .middle-content {
     margin-bottom: 20px;
@@ -104,13 +136,55 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+/* box colors */
+
+.item1{
+    background-color: teal;
+}
+
+.item2{
+    background-color: gold;
+}
+
+.item3{
+    background-color: cadetblue;
+}
+
+.item4{
+    background-color: coral;
+}
+
+.item5{
+    background-color: crimson;
+}
+
+.item6{
+    background-color: forestgreen;
+}
+
+.item7{
+    background-color: darkorchid;
+}
+.item8{
+    background-color: hotpink;
+}
+
+.item9{
+    background-color: indigo;
+}
+
+.item10{
+    background-color: dodgerblue;
+}
+
+/* homepage bottom content */
 
 .bottom-content {
     display: flex;
@@ -125,7 +199,7 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
+/* footer */
 footer {
     width: 100%;
     background: black;
@@ -143,4 +217,48 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* about section styling */
+
+/* about page top content */
+
+.about-top-section-text{
+    padding: 2%;
+}
+
+/* about page middle content */
+
+.about-middle-section{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 2%;
+    justify-content: space-between;
+    height:130vh;
+}
+
+.about-middle-section div{
+    display: flex;
+    flex-flow:column wrap;
+    justify-content: space-evenly;
+    width:47%;
+    margin-bottom: 3.5%;
+    border-bottom: dashed black 1px;
+}
+
+.about-middle-section a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 35%;
+    color: black;
+    border: black 3px solid;
+    border-radius: 10px;
+    padding: 2%;
+}
+/* about page bottom content styling*/
+.about-bottom-section{
+    padding: 2.5%;
+    margin-bottom: 4%;
 }
