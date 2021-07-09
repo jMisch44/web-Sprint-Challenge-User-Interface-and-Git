@@ -88,11 +88,12 @@ nav a{
     text-decoration: none;
 }
 header{
-    background-image: url(/img/jumbo.jpg);
     background-position: bottom;
-    height: 32vh;
     background-repeat: no-repeat;
-    margin-bottom: 3%;
+    margin:2% auto;
+}
+header img{
+    margin: 1% 0px;
 }
 
 .top-content {
