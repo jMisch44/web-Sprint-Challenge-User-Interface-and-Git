@@ -71,6 +71,17 @@ p {
     margin: 0 auto;
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px black solid;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    border:solid black 1px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
